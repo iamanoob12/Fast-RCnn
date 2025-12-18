@@ -294,7 +294,6 @@ if __name__ == "__main__":
     output_file = os.path.join(output_dir, "results.txt")
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(f"Regression Loss (Smooth L1): {loss_loc.item():.4f}\n")
-        f.write(f"Total Loss: {total_loss.item():.4f}\n")
         
         # Test: Compute IoU > 0.5 for regression evaluation
         f.write("\n" + "="*60 + "\n")

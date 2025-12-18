@@ -1,5 +1,4 @@
 Regression Loss (Smooth L1): 30.1878
-Total Loss: 30.1878
 
 ============================================================
 Bounding Box Regression Evaluation (IoU > 0.5)
